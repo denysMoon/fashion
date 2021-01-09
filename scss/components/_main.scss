@@ -1,0 +1,114 @@
+.main{
+  margin-top: 30px;
+}
+.main__content-top{
+  max-width: 1170px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px 15px;
+}
+@media screen and (max-width: $screen-lg-max){
+  .main__content-top {
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px 15px;
+  }
+}
+@media screen and (max-width: $screen-md-max){
+  .main__content-top {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+.main__content-top_item {
+  width: 370px;
+  height: 411px;
+  border: 1px solid #979797;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+  h3 {
+    margin-top: 10px;
+    color: #C9A96E;
+    font-family: 'Conv_PTSans-Regular';
+    font-size: 12px;
+    text-align: center;
+  }
+  h2 {
+    margin-top: 4px;
+    font-size: 20px;
+    font-family: 'Conv_PTSerif-Regular';
+    text-align: center;
+    line-height: 20px;
+  }
+  p {
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: 'Conv_PTSerif-Regular';
+    text-align: center;
+  }
+  span {
+    margin-left: 10px;
+  }
+}
+.main__content-top_item-big{
+  margin-top: 30px;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #979797;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+  h3 {
+    margin-top: 10px;
+    color: #C9A96E;
+    font-family: 'Conv_PTSans-Regular';
+    font-size: 12px;
+    text-align: left;
+    padding: 10px;
+  }
+  h2 {
+    margin-top: 4px;
+    font-size: 20px;
+    font-family: 'Conv_PTSerif-Regular';
+    text-align: left;
+    line-height: 20px;
+    padding: 10px;
+  }
+  p {
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: 'Conv_PTSerif-Regular';
+    text-align: left;
+    padding: 10px;
+  }
+  span {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: $screen-lg-max){
+  .main__content-top_item-big{
+    max-width: 760px;
+  }
+
+}

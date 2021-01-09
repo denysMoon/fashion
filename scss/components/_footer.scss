@@ -1,0 +1,27 @@
+footer{
+  margin-top: 30px;
+  height: 210px;
+  h2{
+    font-size: 25px;
+    font-family: 'Conv_PTSerif-Bold';
+    text-align: center;
+    padding: 15px;
+  }
+  .footer__nav_bar{
+    width: 368px;
+    height: 19px;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__nav_bar>a{
+    font-family: 'Conv_PTSerif-Regular';
+    font-size: 14px;
+  }
+  .icon{
+    max-width: 304px;
+    padding-top: 30px;
+  }
+}
